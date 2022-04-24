@@ -24,8 +24,8 @@ export default {
   },
   data() {
     return {
-      title: 'Vue Element Admin',
-      logo: 'https://wpimg.wallstcn.com/69a1c46c-eb1c-4b46-8bd4-e9e686ef5251.png'
+      title: '',
+      logo: '/logo.png'
     }
   }
 }
@@ -46,7 +46,7 @@ export default {
   width: 100%;
   height: 50px;
   line-height: 50px;
-  background: #2b2f3a;
+  background: white;
   text-align: center;
   overflow: hidden;
 
@@ -55,8 +55,8 @@ export default {
     width: 100%;
 
     & .sidebar-logo {
-      width: 32px;
-      height: 32px;
+      // width: 32px;
+      height: 45px;
       vertical-align: middle;
       margin-right: 12px;
     }

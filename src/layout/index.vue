@@ -71,6 +71,10 @@ export default {
       position: fixed;
       top: 0;
     }
+
+    .sidebar-container {
+      border-right: 1px solid #bfcbd9;
+    }
   }
 
   .drawer-bg {
