@@ -3,7 +3,7 @@
     <router-view />
   </div>
 </template>
-
+<!--var interface_url=''-->
 <script>
 export default {
   name: 'App'

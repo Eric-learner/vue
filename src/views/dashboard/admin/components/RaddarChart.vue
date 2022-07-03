@@ -1,6 +1,7 @@
-<template>
-  <div :class="className" :style="{height:height,width:width}" />
-</template>
+<!--这个是首页左上角的图-->
+<!--<template>-->
+<!--  <div :class="className" :style="{height:height,width:width}" />-->
+<!--</template>-->
 
 <script>
 import echarts from 'echarts'

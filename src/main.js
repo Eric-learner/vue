@@ -19,6 +19,11 @@ import './permission' // permission control
 import './utils/error-log' // error log
 
 import * as filters from './filters' // global filters
+Vue.prototype.HTTP_URL = 'http://inner.5guav.com.cn:20080/api/v1'// 设置全局变量，服务器的地址
+Vue.prototype.CLIENT_ID = '96ae79bd-cee2-4fc2-b177-b4c9ffd2a067'
+Vue.prototype.CLIENT_SECRET = 'UEkXfEHt1Qiql7ocmUwk9I7irPlBzhz26VIgLEUa'
+Vue.prototype.SCOPE = ''
+Vue.prototype.GRANT_TYPE = 'password'
 
 /**
  * If you don't want to use mock-server
